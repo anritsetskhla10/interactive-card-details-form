@@ -88,16 +88,16 @@ const HeaderStyle = styled.header`
 
 @media only screen and (min-width:1440px)  {
         
-    width: 483px;
-    height: 900px;
+    width: 38%;
+    height: 100vh;
     background: url(/images/bg-main-desktop.png) no-repeat;
     background-size: cover;
     margin: 0 349px 0 0;
     
     .back{
         width: 447px;
-        top: 469px;
-        left: 258px;
+        top: 52%; 
+        left: 57.7%;
     }
 
     .CardCode{
@@ -114,8 +114,8 @@ const HeaderStyle = styled.header`
 
     .front{
         width: 447px;
-        top: -60px;
-        left: 164px;
+        top: 10%;
+        left: 36.6%;
     }
 
     .frontImg{
