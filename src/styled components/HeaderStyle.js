@@ -7,7 +7,7 @@ const HeaderStyle = styled.header`
     width: 375px;
     height: 240px;
     background: url(/images/bg-main-mobile.png) no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
     margin-bottom: 91px;
     
@@ -88,7 +88,8 @@ const HeaderStyle = styled.header`
 
 @media only screen and (min-width:1440px)  {
         
-    width: 38%;
+    width: 483px;
+    min-height: 900px;
     height: 100vh;
     background: url(/images/bg-main-desktop.png) no-repeat;
     background-size: cover;
@@ -96,8 +97,8 @@ const HeaderStyle = styled.header`
     
     .back{
         width: 447px;
-        top: 52%; 
-        left: 57.7%;
+        top: calc(50% + 19px);
+        left: calc(50% + 34.5px);
     }
 
     .CardCode{
@@ -114,8 +115,8 @@ const HeaderStyle = styled.header`
 
     .front{
         width: 447px;
-        top: 10%;
-        left: 36.6%;
+        top:  calc(50% - 508px);
+        left: calc(50% - 77.5px);
     }
 
     .frontImg{
